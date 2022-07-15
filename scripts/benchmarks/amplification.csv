@@ -1,0 +1,133 @@
+datastructure,elemcount,type,operation,medium,rw,bytes
+Plush,100000000,logical,lookup,DRAM,r,51097490368
+Plush,100000000,logical,lookup,DRAM,w,1040010368
+Plush,100000000,logical,lookup,PMEM,r,30612644352
+Plush,100000000,logical,lookup,PMEM,w,0
+Plush,100000000,logical,insert,DRAM,r,15895747712
+Plush,100000000,logical,insert,DRAM,w,12722598848
+Plush,100000000,logical,insert,PMEM,r,9637070464
+Plush,100000000,logical,insert,PMEM,w,11376174848
+Dash,100000000,logical,lookup,DRAM,r,969430976
+Dash,100000000,logical,lookup,DRAM,w,467621888
+Dash,100000000,logical,lookup,PMEM,r,29051333696
+Dash,100000000,logical,lookup,PMEM,w,10010880
+Dash,100000000,logical,insert,DRAM,r,1440833280
+Dash,100000000,logical,insert,DRAM,w,710498048
+Dash,100000000,logical,insert,PMEM,r,35063420608
+Dash,100000000,logical,insert,PMEM,w,25712559296
+FPTree,100000000,logical,lookup,DRAM,r,16603590272
+FPTree,100000000,logical,lookup,DRAM,w,1511917696
+FPTree,100000000,logical,lookup,PMEM,r,41597583808
+FPTree,100000000,logical,lookup,PMEM,w,10010880
+FPTree,100000000,logical,insert,DRAM,r,31215970752
+FPTree,100000000,logical,insert,DRAM,w,3420213056
+FPTree,100000000,logical,insert,PMEM,r,65122751744
+FPTree,100000000,logical,insert,PMEM,w,34378565120
+FAST + FAIR,100000000,logical,lookup,DRAM,r,23330066944
+FAST + FAIR,100000000,logical,lookup,DRAM,w,10227537472
+FAST + FAIR,100000000,logical,lookup,PMEM,r,90384642880
+FAST + FAIR,100000000,logical,lookup,PMEM,w,10020288
+FAST + FAIR,100000000,logical,insert,DRAM,r,21163231168
+FAST + FAIR,100000000,logical,insert,DRAM,w,14056491008
+FAST + FAIR,100000000,logical,insert,PMEM,r,120109665344
+FAST + FAIR,100000000,logical,insert,PMEM,w,38535773632
+utree,100000000,logical,lookup,DRAM,r,118426199360
+utree,100000000,logical,lookup,DRAM,w,997690624
+utree,100000000,logical,lookup,PMEM,r,7234591488
+utree,100000000,logical,lookup,PMEM,w,10019328
+utree,100000000,logical,insert,DRAM,r,158209217728
+utree,100000000,logical,insert,DRAM,w,45311442560
+utree,100000000,logical,insert,PMEM,r,42725361088
+utree,100000000,logical,insert,PMEM,w,51564768832
+Plush,100000000,device,lookup,PMEM,r,62177207296
+Plush,100000000,device,lookup,PMEM,w,532722432
+Plush,100000000,device,insert,PMEM,r,15519144960
+Plush,100000000,device,insert,PMEM,w,16016990720
+FPTree,100000000,device,lookup,PMEM,r,98052838144
+FPTree,100000000,device,lookup,PMEM,w,787167232
+FPTree,100000000,device,insert,PMEM,r,98842449920
+FPTree,100000000,device,insert,PMEM,w,100365735168
+Dash,100000000,device,lookup,PMEM,r,66549741032
+Dash,100000000,device,lookup,PMEM,w,331751424
+Dash,100000000,device,insert,PMEM,r,71522935808
+Dash,100000000,device,insert,PMEM,w,78288386816
+FAST + FAIR,100000000,device,lookup,PMEM,r,149925928704
+FAST + FAIR,100000000,device,lookup,PMEM,w,835204864
+FAST + FAIR,100000000,device,insert,PMEM,r,192004310332
+FAST + FAIR,100000000,device,insert,PMEM,w,80612355072
+utree,100000000,device,lookup,PMEM,r,26892058624
+utree,100000000,device,lookup,PMEM,w,460956416
+utree,100000000,device,insert,PMEM,r,53512541440
+utree,100000000,device,insert,PMEM,w,54310369280
+Plush,100000000,device,lookup,DRAM,r,0
+Plush,100000000,device,lookup,DRAM,w,0
+Plush,100000000,device,insert,DRAM,r,0
+Plush,100000000,device,insert,DRAM,w,0
+FPTree,100000000,device,lookup,DRAM,r,0
+FPTree,100000000,device,lookup,DRAM,w,0
+FPTree,100000000,device,insert,DRAM,r,0
+FPTree,100000000,device,insert,DRAM,w,0
+Dash,100000000,device,lookup,DRAM,r,0
+Dash,100000000,device,lookup,DRAM,w,0
+Dash,100000000,device,insert,DRAM,r,0
+Dash,100000000,device,insert,DRAM,w,0
+FAST + FAIR,100000000,device,lookup,DRAM,r,0
+FAST + FAIR,100000000,device,lookup,DRAM,w,0
+FAST + FAIR,100000000,device,insert,DRAM,r,0
+FAST + FAIR,100000000,device,insert,DRAM,w,0
+utree,100000000,device,lookup,DRAM,r,0
+utree,100000000,device,lookup,DRAM,w,0
+utree,100000000,device,insert,DRAM,r,0
+utree,100000000,device,insert,DRAM,w,0
+Viper,100000000,logical,lookup,DRAM,r,22059119232
+Viper,100000000,logical,lookup,DRAM,w,3615274176
+Viper,100000000,logical,lookup,PMEM,r,12647541824
+Viper,100000000,logical,lookup,PMEM,w,10011328
+Viper,100000000,logical,insert,DRAM,r,40003893184
+Viper,100000000,logical,insert,DRAM,w,18523169472
+Viper,100000000,logical,insert,PMEM,r,15296858368
+Viper,100000000,logical,insert,PMEM,w,16091054528
+Plush,100000000,logical,insert,DRAM,r,15895747712
+Plush,100000000,logical,insert,DRAM,w,12722598848
+Plush,100000000,logical,insert,PMEM,r,9637070464
+Plush,100000000,logical,insert,PMEM,w,11376174848
+Viper,100000000,device,lookup,DRAM,r,0
+Viper,100000000,device,lookup,DRAM,w,0
+Viper,100000000,device,insert,DRAM,r,0
+Viper,100000000,device,insert,DRAM,w,0
+Viper,100000000,device,lookup,PMEM,r,49416965632
+Viper,100000000,device,lookup,PMEM,w,356049920
+Viper,100000000,device,insert,PMEM,r,3450630400
+Viper,100000000,device,insert,PMEM,w,5674288128
+Plush w/o DRAM f.,100000000,logical,lookup,DRAM,r,17495194880
+Plush w/o DRAM f.,100000000,logical,lookup,DRAM,w,1734076608
+Plush w/o DRAM f.,100000000,logical,lookup,PMEM,r,79515118720
+Plush w/o DRAM f.,100000000,logical,lookup,PMEM,w,10010880
+Plush w/o DRAM f.,100000000,logical,insert,DRAM,r,14900425024
+Plush w/o DRAM f.,100000000,logical,insert,DRAM,w,11750682560
+Plush w/o DRAM f.,100000000,logical,insert,PMEM,r,10604002880
+Plush w/o DRAM f.,100000000,logical,insert,PMEM,w,12330777536
+Plush w/o DRAM f.,100000000,device,lookup,PMEM,r,113464576256
+Plush w/o DRAM f.,100000000,device,lookup,PMEM,w,824187904
+Plush w/o DRAM f.,100000000,device,insert,PMEM,r,18215397888
+Plush w/o DRAM f.,100000000,device,insert,PMEM,w,18858419968
+Plush w/o DRAM f.,100000000,device,lookup,DRAM,r,0
+Plush w/o DRAM f.,100000000,device,lookup,DRAM,w,0
+Plush w/o DRAM f.,100000000,device,insert,DRAM,r,0
+Plush w/o DRAM f.,100000000,device,insert,DRAM,w,0
+DPTree,100000000,logical,lookup,DRAM,r,4684560832
+DPTree,100000000,logical,lookup,DRAM,w,896780352
+DPTree,100000000,logical,lookup,PMEM,r,25898390784
+DPTree,100000000,logical,lookup,PMEM,w,10010880
+DPTree,100000000,logical,insert,DRAM,r,56168952064
+DPTree,100000000,logical,insert,DRAM,w,30520244352
+DPTree,100000000,logical,insert,PMEM,r,55081229184
+DPTree,100000000,logical,insert,PMEM,w,28005772416
+DPTree,100000000,device,lookup,PMEM,r,64996930048
+DPTree,100000000,device,lookup,PMEM,w,417789952
+DPTree,100000000,device,insert,PMEM,r,62929717504
+DPTree,100000000,device,insert,PMEM,w,70802820352
+DPTree,100000000,device,lookup,DRAM,r,0
+DPTree,100000000,device,lookup,DRAM,w,0
+DPTree,100000000,device,insert,DRAM,r,0
+DPTree,100000000,device,insert,DRAM,w,0

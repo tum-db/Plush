@@ -1,0 +1,127 @@
+percentile,operation,datastructure,latency_ns
+min,insert,FASTFAIR,647
+50\%,insert,FASTFAIR,3154
+90\%,insert,FASTFAIR,5763
+99\%,insert,FASTFAIR,11992
+99.9\%,insert,FASTFAIR,17624
+99.99\%,insert,FASTFAIR,26055
+99.999\%,insert,FASTFAIR,550467
+min,lookup,FASTFAIR,404
+50\%,lookup,FASTFAIR,1763
+90\%,lookup,FASTFAIR,2162
+99\%,lookup,FASTFAIR,2585
+99.9\%,lookup,FASTFAIR,3090
+99.99\%,lookup,FASTFAIR,6100
+99.999\%,lookup,FASTFAIR,7686
+min,insert,PLUSH,317
+50\%,insert,PLUSH,637
+90\%,insert,PLUSH,1338
+99\%,insert,PLUSH,3694
+99.9\%,insert,PLUSH,40778
+99.99\%,insert,PLUSH,46928
+99.999\%,insert,PLUSH,59147
+min,lookup,PLUSH,70
+50\%,lookup,PLUSH,997
+90\%,lookup,PLUSH,1500
+99\%,lookup,PLUSH,1939
+99.9\%,lookup,PLUSH,2413
+99.99\%,lookup,PLUSH,5777
+99.999\%,lookup,PLUSH,7193
+min,insert,DASH,109
+50\%,insert,DASH,1160
+90\%,insert,DASH,2249
+99\%,insert,DASH,3781
+99.9\%,insert,DASH,15417
+99.99\%,insert,DASH,32338
+99.999\%,insert,DASH,84707
+min,lookup,DASH,46
+50\%,lookup,DASH,624
+90\%,lookup,DASH,847
+99\%,lookup,DASH,1178
+99.9\%,lookup,DASH,1551
+99.99\%,lookup,DASH,3130
+99.999\%,lookup,DASH,5061
+min,insert,FPTree,509
+50\%,insert,FPTree,2842
+90\%,insert,FPTree,4534
+99\%,insert,FPTree,7415
+99.9\%,insert,FPTree,18150
+99.99\%,insert,FPTree,22520
+99.999\%,insert,FPTree,28522
+min,lookup,FPTree,329
+50\%,lookup,FPTree,2965
+90\%,lookup,FPTree,4564
+99\%,lookup,FPTree,6421
+99.9\%,lookup,FPTree,8195
+99.99\%,lookup,FPTree,10077
+99.999\%,lookup,FPTree,12178
+min,insert,PMEMKV,2122
+50\%,insert,PMEMKV,6431
+90\%,insert,PMEMKV,9364
+99\%,insert,PMEMKV,17565
+99.9\%,insert,PMEMKV,31318
+99.99\%,insert,PMEMKV,91324
+99.999\%,insert,PMEMKV,103303
+min,lookup,PMEMKV,242
+50\%,lookup,PMEMKV,2089
+90\%,lookup,PMEMKV,3538
+99\%,lookup,PMEMKV,5399
+99.9\%,lookup,PMEMKV,7588
+99.99\%,lookup,PMEMKV,11728
+99.999\%,lookup,PMEMKV,27325
+min,insert,utree,1821
+50\%,insert,utree,3484
+90\%,insert,utree,5435
+99\%,insert,utree,7179
+99.9\%,insert,utree,10628
+99.99\%,insert,utree,498988
+99.999\%,insert,utree,624925
+min,lookup,utree,189
+50\%,lookup,utree,943
+90\%,lookup,utree,1120
+99\%,lookup,utree,1349
+99.9\%,lookup,utree,1584
+99.99\%,lookup,utree,5767
+99.999\%,lookup,utree,13330
+min,insert,DPTree,608
+50\%,insert,DPTree,2709
+90\%,insert,DPTree,4128
+99\%,insert,DPTree,6000
+99.9\%,insert,DPTree,9797
+99.99\%,insert,DPTree,418175
+99.999\%,insert,DPTree,789401
+min,lookup,DPTree,203
+50\%,lookup,DPTree,749
+90\%,lookup,DPTree,1471
+99\%,lookup,DPTree,1978
+99.9\%,lookup,DPTree,3325
+99.99\%,lookup,DPTree,6222
+99.999\%,lookup,DPTree,11854
+min,insert,Viper,621
+50\%,insert,Viper,1264
+90\%,insert,Viper,1900
+99\%,insert,Viper,3080
+99.9\%,insert,Viper,4252
+99.99\%,insert,Viper,6304
+99.999\%,insert,Viper,488561
+min,lookup,Viper,64
+50\%,lookup,Viper,699
+90\%,lookup,Viper,875
+99\%,lookup,Viper,1127
+99.9\%,lookup,Viper,1402
+99.99\%,lookup,Viper,4889
+99.999\%,lookup,Viper,6258
+min,insert,Plush w/o DRAM-filter,239
+50\%,insert,Plush w/o DRAM-filter,610
+90\%,insert,Plush w/o DRAM-filter,1244
+99\%,insert,Plush w/o DRAM-filter,3472
+99.9\%,insert,Plush w/o DRAM-filter,51451
+99.99\%,insert,Plush w/o DRAM-filter,59551
+99.999\%,insert,Plush w/o DRAM-filter,66876
+min,lookup,Plush w/o DRAM-filter,75
+50\%,lookup,Plush w/o DRAM-filter,1579
+90\%,lookup,Plush w/o DRAM-filter,2170
+99\%,lookup,Plush w/o DRAM-filter,2683
+99.9\%,lookup,Plush w/o DRAM-filter,3189
+99.99\%,lookup,Plush w/o DRAM-filter,6662
+99.999\%,lookup,Plush w/o DRAM-filter,15488

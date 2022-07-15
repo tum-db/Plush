@@ -1,0 +1,9 @@
+configuration,operation,throughput
+baseline,lookup,24016789
+baseline,insert,23442166
++prealloc,lookup,25223372
++prealloc,insert,31871279
++dramfilter,lookup,32773284
++dramfilter,insert,33734798
+-log,lookup,32706540
+-log,insert,63072552

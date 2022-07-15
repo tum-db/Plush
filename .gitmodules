@@ -1,0 +1,21 @@
+[submodule "dash"]
+	path = dash
+	url = git@github.com:tum-db/pmem-datastructures-dash.git
+[submodule "viper"]
+	path = viper
+	url = git@github.com:tum-db/pmem-datastructures-viper.git
+[submodule "pmemkv"]
+	path = pmemkv
+	url = git@github.com:tum-db/pmem-datastructures-pmemkv.git
+[submodule "dptree"]
+	path = dptree
+	url = git@github.com:tum-db/pmem-datastructures-dptree.git
+[submodule "fast_fair"]
+	path = fast_fair
+	url = git@github.com:tum-db/pmem-datastructures-FAST_FAIR.git
+[submodule "fptree"]
+	path = fptree
+	url = git@github.com:tum-db/pmem-datastructures-FPTree.git
+[submodule "pibench"]
+	path = pibench
+	url = git@github.com:tum-db/pibench.git
